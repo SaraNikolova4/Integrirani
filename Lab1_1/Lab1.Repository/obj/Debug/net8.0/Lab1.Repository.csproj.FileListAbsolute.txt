@@ -1,0 +1,11 @@
+C:\Users\Sara\Desktop\Integrirani-V\Lab1_1\Lab1.Repository\bin\Debug\net8.0\Lab1.Repository.deps.json
+C:\Users\Sara\Desktop\Integrirani-V\Lab1_1\Lab1.Repository\bin\Debug\net8.0\Lab1.Repository.dll
+C:\Users\Sara\Desktop\Integrirani-V\Lab1_1\Lab1.Repository\bin\Debug\net8.0\Lab1.Repository.pdb
+C:\Users\Sara\Desktop\Integrirani-V\Lab1_1\Lab1.Repository\obj\Debug\net8.0\Lab1.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sara\Desktop\Integrirani-V\Lab1_1\Lab1.Repository\obj\Debug\net8.0\Lab1.Repository.AssemblyInfoInputs.cache
+C:\Users\Sara\Desktop\Integrirani-V\Lab1_1\Lab1.Repository\obj\Debug\net8.0\Lab1.Repository.AssemblyInfo.cs
+C:\Users\Sara\Desktop\Integrirani-V\Lab1_1\Lab1.Repository\obj\Debug\net8.0\Lab1.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Sara\Desktop\Integrirani-V\Lab1_1\Lab1.Repository\obj\Debug\net8.0\Lab1.Repository.dll
+C:\Users\Sara\Desktop\Integrirani-V\Lab1_1\Lab1.Repository\obj\Debug\net8.0\refint\Lab1.Repository.dll
+C:\Users\Sara\Desktop\Integrirani-V\Lab1_1\Lab1.Repository\obj\Debug\net8.0\Lab1.Repository.pdb
+C:\Users\Sara\Desktop\Integrirani-V\Lab1_1\Lab1.Repository\obj\Debug\net8.0\ref\Lab1.Repository.dll

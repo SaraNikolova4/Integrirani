@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Lab1.Web.Models.Concert>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<p>
+    <a  style="background-color:forestgreen; color:white" asp-action="Create" class="btn">Create New</a>
+</p>
+<div>
+    <a style="background-color:forestgreen; color:white; float:right" asp-action="Create" asp-controller="Tickets" class="btn"> Buy a Ticket</a>
+</div>
+<div class="row">
+    @foreach (var item in Model) {
+        <div class="col-md-4" >
+            <div class="card">
+                <img src="concert_image_url_here" alt="Concert Image" style="width:100%">
+                <h1 style="padding-left:30px">@Html.DisplayFor(modelItem => item.ConcertName)</h1>
+                <p style="padding-left:30px">@Html.DisplayFor(modelItem => item.ConcertDate)</p>
+                <p style ="padding-left:30px">@Html.DisplayFor(modelItem => item.ConcertPlace)</p>
+                <p style="padding-left:30px" class="price">@Html.DisplayFor(modelItem => item.ConcertPrice) EUR</p>
+                <p style ="padding-left:30px; background-color:lightgray; padding:30px">
+                <a style="background-color:cornflowerblue; color:white; margin-left:20px" asp-action="Details" asp-route-id="@item.Id" class="btn">Details</a>
+                <a style="background-color:gray; color:white" asp-action="Edit" asp-route-id="@item.Id" class="btn">Edit</a>
+                <a style="background-color:red; color:white" asp-action="Delete" asp-route-id="@item.Id" class="btn">Delete</a>
+            </div>
+        </div>
+    }
+</div>
+
